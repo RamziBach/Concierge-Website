@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>A propos de nous</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+	
+	
+	
+	
+	<div class="container">
+		<div class="about-us-parent">
+			<h1 class="about-us-h1">Nous avons hâte de vous rencontrer</h1>
+			<p class="main-content-sub">conciergerie personnelle</p>
+			<div class="sspp about-us-sspp"></div>
+			<div class="about-us-flex">
+				<div class="about-us-h1-child">
+					<p class="about-us-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+					   vulputate blandit diam, ut posuere eros pulvinar sit amet. Etiam
+					   fringilla mi nec ligula auctor bibendum. Nam malesuada fermentum
+					   semper. Proin id magna bibendum, tempus erat eu, laoreet mi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi consequatur soluta illo totam impedit fuga voluptatum voluptatem hic dicta fugit veniam temporibus harum ullam, debitis. Eius harum asperiores necessitatibus expedita? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi consectetur sed nulla asperiores voluptas atque, laborum harum nihil, sapiente, blanditiis eum assumenda quo ducimus quis quaerat molestias.</p>
+					   <div>
+						<a href="services.html" class="btn btn-one">nos services</a>
+					</div>
+				</div>
+				<div class="about-us-right-child">
+					<img class="about-us-svg" src="img/people.svg">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	<footer class="footer">
+        <div class="footer-links">
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a class="footer-a" href="index.html">index</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-a" href="about-us.html">à propos</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-a" href="services.html">services</a>
+                </li>
+                <li class="footer-li">
+                    <a class="footer-a" href="contact.html">nous rejoindre</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-title">
+            <p class="footer-p">
+                A Bach website <br>
+                ALL RIGHTS RESERVED
+            </p>
+        </div>
+    </footer>
+	
+	
+	
+	
+	<div id="container-sticky-about-us">
+		<div class="sticky-header">
+			<div>
+				<a class="title-a title" id="logo-a" href="index.html"><img class="hotel-bell hotel-bell-2" src="img/concierge2.svg"></a>
+			</div>
+			<nav>
+				<ul class="ul">
+					<li class="li"><a href="index.html">index</a></li>
+					<li class="current-page"><a href="about-us.html">à propos</a></li>
+					<li class="li"><a href="services.html">services</a></li>
+					<li class="li"><a href="contact.html">nous rejoindre</a></li>
+				</ul>
+				<div class="clickable-hamburger clickable-hamburger2">
+					<div class="hamburger-icon"></div>
+					<div class="hamburger-icon"></div>
+					<div class="hamburger-icon"></div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+	
+	
+	
+	<div id="container-hamburger" class="animated slideInRight">
+		<div class="sticky-header-hamburger">
+			<div class="mobile-logo">
+				<a class="title-a title" id="logo-a" href="#"><img class="hotel-bell hotel-bell-2" src="img/concierge2.svg"></a>
+			</div>
+			<nav>
+				<ul class="ul-hamburger">	
+					<li class="li mobile-li"><a href="index.html">index</a></li>
+					<li class="current-page mobile-li"><a href="about-us.html">à propos</a></li>
+					<li class="li mobile-li"><a href="services.html">services</a></li>
+					<li class="li mobile-li"><a href="contact.html">nous rejoindre</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="clear">
+			<i class="material-icons">clear</i>
+		</div>
+	</div>
+	
+	
+	
+	
+	<button onclick="topFunction()" id="myBtn" class="myBtnClass animated bounceInUp" title="Go to top"><img class="topClass" src="img/up-arrow-white.svg"></button>
+	
+	
+	
+	
+	<script src="typewriter.js"></script>
+	<script src="script.js"></script>
+	<script src="sticky.js"></script>
+	<script>
+		const mobileHam = document.getElementsByClassName('clickable-hamburger');
+		const mobileNav = document.getElementById('container-hamburger');
+		const clear = document.querySelector('.material-icons');
+		mobileHam[0].addEventListener('click', () => mobileNav.style.display = 'block');
+		clear.addEventListener('click', () => mobileNav.style.display = 'none');
+	</script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+@media (max-width: 1037px) {
+	.landing-second {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.landing {
+		height: 42em;
+	}
+	
+	.ul {
+		display: none;
+	}
+	
+	.clickable-hamburger {
+		display: block;
+	}
+	
+	.landing-hey {
+		font-size: 1.3rem;
+	}
+	
+	.landing-first {
+		font-size: 1.3rem;
+	}
+	
+	.landing-second {
+		font-size: 2.5rem;
+	}
+	
+	.btn {
+		font-size: 0.8rem;
+	}
+	
+	.main-content-h1 {
+		font-size: 2rem;
+	}
+}
+
+@media (max-width: 680px) {
+	.landing {
+		height: 40em;
+	}
+	
+	.landing-hey {
+		font-size: 1.2rem;
+	}
+	
+	.landing-first {
+		font-size: 1.2rem;
+	}
+	
+	.landing-second {
+		font-size: 2rem;
+	}
+	
+	.btn {
+		font-size: 0.7rem;
+	}
+}
+
+@media (max-width: 560px) {
+	.landing {
+		height: 36em;
+	}
+	
+	.hotel-bell {
+		width: 0.9em;
+	}
+	
+	.hamburger-icon {
+		margin: 0.4em;
+		width: 2.4em;
+		height: 0.2em;
+		background-color: white;
+	}
+	
+	.landing-hey {
+		font-size: 1.1rem;
+	}
+	
+	.landing-first {
+		font-size: 1.1rem;
+	}
+	
+	.landing-second {
+		font-size: 1.7rem;
+	}
+	
+	.btn {
+		font-size: 0.6rem;
+	}
+	
+	.down-arrow-div {
+		margin-top: 4em;
+	}
+	
+	.down-arrow {
+		width: 3em;
+	}
+}
+
+@media (max-width: 466px) {
+	.landing-second {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 418px) {
+	.landing {
+		height: 33em;
+	}
+	
+	.landing-hey {
+		font-size: 0.9rem;
+	}
+	
+	.landing-first {
+		font-size: 0.9rem;
+	}
+	
+	.landing-second {
+		font-size: 1.3rem;
+	}
+}
+
+@media (max-width: 370px) {
+	.landing-hey {
+		font-size: 0.9rem;
+	}
+	
+	.landing-first {
+		font-size: 0.8rem;
+	}
+	
+	.landing-second {
+		font-size: 1.1rem;
+	}
+	
+	.btn {
+		font-size: 0.5rem;
+	}
+}
+
+@media (max-width: 322px) {
+	.landing-second {
+		font-size: 1rem;
+	}
+}
