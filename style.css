@@ -264,8 +264,8 @@ a:focus {
 .testimonial-parent {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	text-align: center;
-	min-width: 30em;
 }
 
 .testimonial-h1 {
@@ -518,6 +518,10 @@ a:focus {
 	margin-bottom: 2em;
 }
 
+/*.about-us-h1-child {
+	min-width: 30em;
+}*/
+
 .about-us-svg {
 	width: 30em;
 }
@@ -652,7 +656,7 @@ a:focus {
 
 .contact-form { 
 	max-width: 30em;
-	min-width: 20em;
+	min-width: 15em;
 }
 
 .form-center {
