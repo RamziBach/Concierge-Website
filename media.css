@@ -242,21 +242,21 @@
 /*=====MOBILE=====*/
 
 @media (max-width: 460px) {
-	/*body {
-		background-color: antiquewhite;
+	body {
+		background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
 	}
 	
 	.services-background {
-		background-color: antiquewhite;
+		background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
 	}
 	
-	.module {
-		background-color: antiquewhite;
-	}
+	/*.module {
+		background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+	}*/
 	
 	.grid {
-		background-color: antiquewhite;
-	}*/
+		background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+	}
 	
 	.landing {
 		background-image: none;
