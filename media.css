@@ -226,7 +226,7 @@
 /*=====MOBILE=====*/
 
 @media (max-width: 460px) {
-	body {
+	/*body {
 		background-color: antiquewhite;
 	}
 	
@@ -240,10 +240,16 @@
 	
 	.grid {
 		background-color: antiquewhite;
-	}
+	}*/
 	
 	.landing {
 		background-image: none;
+		height: 40em;
+	}
+	
+	.container-landing {
+		padding-bottom: 5em;
+		border-bottom: 1px solid #f2aa4c;
 	}
 	
 	.hotel-bell {
@@ -305,14 +311,14 @@
 		text-align: start;
 	}
 	
-	.txt-type > .txt {
+	/*.txt-type > .txt {
 		color: antiquewhite;
-	}
+	}*/
 	
 	.testimonial-container {
 		min-width: 80%;
 		padding: 3em;
-		background-color: antiquewhite;
+		/*background-color: antiquewhite;*/
 	}
 	
 	.testimonial-h1 {
@@ -331,13 +337,13 @@
 		font-size: 0.5rem;
 	}
 	
-	.footer-a {
+	/*.footer-a {
 		color: antiquewhite;
 	}
 	
 	.footer-p {
 		color: antiquewhite;
-	}
+	}*/
 	
 	.about-us-svg {
 		display: none;
@@ -345,15 +351,18 @@
 	
 	.about-us-h1 {
 		color: #2F2E41;
+		font-weight: 600;
+		font-size: 2rem;
 	}
 	
 	.grid-h1 {
 		color: #2F2E41;
+		font-weight: 600;
 	}
 	
-	[type="submit"] {
+	/*[type="submit"] {
 		color: antiquewhite;
-	}
+	}*/
 }
 
 @media (max-width: 400px) {
